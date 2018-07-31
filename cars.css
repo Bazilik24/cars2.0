@@ -1,0 +1,67 @@
+body{
+	background-image: url(pictures/background-main.jpg) ;
+	font-family:Arial, Helvetica, sans-serif;
+}
+h1{font-family: Arial, Helvetica, sans-serif; font-weight: bold; text-align: left}
+h2{font-family: Arial, Helvetica, sans-serif; font-weight: bolder; text-align: right}
+
+.audi_rs6_sounds{
+    color: whitesmoke;
+    margin-left: 960px;
+    margin-top: 40px;
+}
+
+A:link {text-decoration: none; color: wheat }
+    A:visited {text-decoration: none; color:  wheat }
+        A:hover {text-decoration: underline; color:springgreen}
+
+.model_list{color: whitesmoke; font-weight: bolder; font-size: 20px}
+
+.droplink {
+    width:200px;
+    position:absolute;
+    border-radius:3px;
+    margin:10px 0 0 25px
+}
+.droplink ul{padding:0;margin:0}
+.socialbutton {
+    
+    display:inline-block;
+    color: wheat;
+    font-size:15px;
+    font-weight:bold;
+    text-decoration:none;
+    margin: 0 0 0 0;
+    cursor: pointer}
+    .socialbutton:hover {background-color:#dfdfdf}
+    .socialbutton:active{position:relative;top:1px}
+    .droplink li{display: inline}
+    .droplink li a{
+        padding:5px 12px 4px 34px;
+        margin:1px;
+        display:block;
+        color:#000;
+        text-decoration: none;
+        font-size:12px;
+        background-repeat:no-repeat;
+        background-position: 10px 3px}
+    .droplink li a:hover {background-color: #999}
+    
+
+        table {
+            border-collapse: collapse;
+            color: whitesmoke;
+            width: 890px;
+            text-align: center;
+            margin-top: 0px
+        }
+        
+        table, th, td {
+            border: 1px solid ghostwhite; height: 40px;
+        }
+        td {
+            width: 200px;
+        }
+        th {
+            color: lightgreen; width: 215px
+        }
